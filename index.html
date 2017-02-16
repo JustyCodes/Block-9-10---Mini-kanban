@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini-kanban</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!--text input here-->
+  <div id="input">
+    <form>
+      <div class="form-group">
+        <textarea class="form-control status-box" rows="2" placeholder="Write your to-do item here"></textarea>
+      </div>
+    </form>
+    <div class="button-group">
+      <a href="#" class="btn">Post</a>
+    </div>
+  </div>
+  <!--instructions here-->
+  <div id="instructions">
+    <p>this here are instructions on how to use this site</p>
+    <ul>
+    <li>p - choose previous item</li>
+    <li>n - choose next item</li>
+    </ul>
+  </div>
+  <!--to do list here-->
+  <div class="list">
+    <p>To-do:</p>
+    <ul class="to-do">
+    </ul>
+  </div>
+  <!--in progress items here-->
+  <div class="list">
+    <p>In progress:</p>
+    <ul class="progress">
+    </ul>
+  </div>
+    <!--done items here-->
+  <div class="list">
+    <p>Done:</p>
+    <ul class="done">
+    </ul>
+  </div>
+
+  
+  
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/add-items.js"></script>
+  <script src="js/move-items.js"></script>
+</body>
+</html>

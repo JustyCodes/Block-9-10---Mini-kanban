@@ -1,0 +1,68 @@
+body {
+  width: auto;
+}
+
+#input {
+  width: 47%;
+  height: 50px;
+  border: 1px solid #666;
+  float: left;
+  margin: 1%;
+  padding: 5px;
+}
+
+form {
+  width: 60%;
+  float: left;
+}
+.form-group {
+  float:left;
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+.button-group {
+  width: 20%;
+  float:left;
+  padding: 5px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #666;
+}
+
+#instructions {
+  width: 47%;
+  min-height: 60px;
+  border: 1px solid #666;
+  float: left;
+  margin: 1%;
+}
+.list {
+  width: 29%;
+  margin: 1%;
+  padding: 10px;
+  border: 1px solid #666;
+  float: left;
+}
+
+.list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list ul li {
+  padding: 5px;
+  margin: 2px;
+  width: 95%;
+  border: 1px solid #666;
+}
+.current {
+  background: #999;
+}
+
+
