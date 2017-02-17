@@ -48,7 +48,7 @@ textarea {
   margin: 1%;
 }
 .list {
-  width: 29%;
+  width: 95%;
   margin: 1%;
   padding: 10px;
   border: 1px solid #666;
@@ -66,11 +66,20 @@ textarea {
   padding: 5px;
   margin: 2px;
   width: 95%;
+  height: 20px;
+  line-height: 20px;
   border: 1px solid #666;
   border-radius: 5px;
+  display: block;
 }
 .current {
-  background: #999;
+  background: rgba(244, 219, 73, 0.8);
 }
-
+.done {
+  background: #f66f66;
+}
+.progress {
+  color: green;
+  background: rgba(66, 244, 101, 0.6)
+}
 
