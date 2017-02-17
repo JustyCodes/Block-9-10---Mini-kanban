@@ -1,10 +1,18 @@
+var currentToggle = $('.to-do');
+function itemClickEventHandler(e) {
+  if (e.target !== e.currentTarget) {
+    $('.item').removeClass('current');
+    $(e.currentTarget).toggleClass('current');
+  }
+}
+function registerEventHandlers() {
+  currentToggle.on('click', itemClickEventHandler);
+}
+
+
+
 var main = function () {
-    $('.item').click(function () {
-      $('.item').removeClass('current');
-      $(this).toggleClass('current');
-      
-    });
-  
+    registerEventHandlers();
     $(document).keypress(function (event) {
       if (event.which === 60) {
         var currentItem = $('.current');
