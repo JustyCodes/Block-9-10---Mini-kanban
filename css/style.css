@@ -66,12 +66,12 @@ textarea {
   padding: 5px;
   margin: 2px;
   width: 95%;
-  min-height: 20px;
-  overflow: auto;
+  height: 20px;
   line-height: 20px;
   border: 1px solid #666;
   border-radius: 5px;
   display: block;
+  pointer-events: all;
 }
 .current {
   background: rgba(244, 219, 73, 0.8);

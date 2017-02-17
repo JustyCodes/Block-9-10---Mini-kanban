@@ -2,7 +2,7 @@ var main = function() {
   $('.btn').click(function () {
     var post = $('.status-box').val();
     $('li').removeClass('current');
-    $('<li>').text(post).prependTo('.to-do').addClass('item').addClass('current');
+    $('<li>').text(post).prependTo('#to-do').addClass('item').addClass('current');
     $('.status-box').val('');
     $('.btn').addClass('disabled');
   });
